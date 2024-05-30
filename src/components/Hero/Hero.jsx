@@ -10,11 +10,11 @@ function Hero() {
 <h2>NEW ARRIVALS ONLY</h2>
 <div>
   <div className="hero-hand-icon">
-    <p>new</p>
+    <p>Step</p>
     <img src={hand_icon} alt="" />
     </div> 
-    <p>collection</p>
-    <p>for everyone</p>
+    <p>Up Your</p>
+    <p>Fashion Game</p>
 </div>
 <div className="hero-latest-btn">
     <div>Latest Collection</div>

@@ -1,7 +1,7 @@
 .loginsignup{
     width: 100%;
    height: 80vh;
-   background: #fce3fe;
+   background:linear-gradient(180deg,#e1e1ff,#e1fffd22 60%) ;   
    padding-top: 100px; 
 }
 .loginsignup-container{
@@ -30,7 +30,12 @@
     font-size: 18px;
 }
 .loginsignup-container button{
-    width: 580px;
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+.loginsignup-container button{
+    /* width: 580px;
     height: 40px;
     color: white;
     background: #ff4141;
@@ -38,8 +43,27 @@
     border: none;
     font-size: 24px;
     font-weight: 500;
+    cursor: pointer; */
+    width: 580px;
+    height: 40px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+    box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5);
+    outline: none;
     cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: white;
+  
 }
+.loginsignup-container button:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .loginsignup-container button :active {
+    opacity: 0.5;
+  }
 .loginsignup-login{
  margin-top: 20px;
  color: #5c5c5c;
